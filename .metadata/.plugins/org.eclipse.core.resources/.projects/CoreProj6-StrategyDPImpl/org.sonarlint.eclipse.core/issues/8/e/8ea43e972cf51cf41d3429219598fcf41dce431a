@@ -1,0 +1,15 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(∞рш№щ€€€€8џћжак0HљRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ѕќО–ы€€€€8≈Ђяак0HЈRMAJORZ
+CODE_SMELL
+M
+java:S2119"Save and re-use this "Random".(ъІ°≤8„ящак0H≈RCRITICALZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(’»гҐ8„ящак0HƒRMAJORZ
+CODE_SMELL
+]
+java:S1197"*Move the array designators [] to the type.(АЌЗЩ8„ящак0HЊRMINORZ
+CODE_SMELL
+]
+java:S1197"*Move the array designators [] to the type.(АЌЗЩ8„ящак0HЅRMINORZ
+CODE_SMELL

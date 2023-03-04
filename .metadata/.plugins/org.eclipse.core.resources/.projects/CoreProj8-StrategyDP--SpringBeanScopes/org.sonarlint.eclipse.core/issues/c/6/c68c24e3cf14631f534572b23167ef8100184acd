@@ -1,0 +1,15 @@
+
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(΅ΈΞωÿÿÿÿ8ρίακ0HΕRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ΟΞΠϋÿÿÿÿH²RMAJORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Random'.(θψΙ›ωÿÿÿÿ8ρίακ0HΓRMINORZ
+CODE_SMELL
+‹
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Qualifier'.(νΰΔ®ύÿÿÿÿ8ρίακ0HΗRMINORZ
+CODE_SMELL
+e
+java:S1128"-Remove this unused import 'java.util.Arrays'.(ξ–Ιόÿÿÿÿ8ρίακ0HΑRMINORZ
+CODE_SMELL

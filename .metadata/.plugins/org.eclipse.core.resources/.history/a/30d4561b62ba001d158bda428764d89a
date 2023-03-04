@@ -1,0 +1,21 @@
+package com.nt.test;
+
+import java.time.LocalDateTime;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import com.nt.beans.SeasonFinder;
+import com.nt.beans.WishMessageGenerator;
+
+public class AutowiringTest {
+
+	public static void main(String[] args) {
+	ClassPathXmlApplicationContext ctx=
+			new ClassPathXmlApplicationContext("com/nt/cfgs/applicationContect.xml");
+	SeasonFinder finder=(SeasonFinder) ctx.getBean("sf");
+	String result=finder.findSeason("Vibha");
+	System.out.println(result);
+	}
+
+}

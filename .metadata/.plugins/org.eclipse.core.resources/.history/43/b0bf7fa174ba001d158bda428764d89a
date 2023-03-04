@@ -1,0 +1,14 @@
+package com.nt.comps;
+
+public final class Flipkart implements Courier {
+
+	public Flipkart() {
+		System.out.println("Flipkart::0-param constructor");
+	}
+	@Override
+	public String deliver(int oid) {
+	System.out.println("Flipkart.deliver()");
+		return oid+"  order id order products are given for delivery to Flipkart Courier Service";
+	}
+
+}

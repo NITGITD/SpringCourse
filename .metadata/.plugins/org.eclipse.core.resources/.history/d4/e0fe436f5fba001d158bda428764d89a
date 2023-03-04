@@ -1,0 +1,21 @@
+package com.nt.test;
+
+import java.time.LocalDateTime;
+
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import com.nt.beans.WishMessageGenerator;
+
+public class SetterInjectionTest {
+
+	public static void main(String[] args) {
+		FileSystemXmlApplicationContext ctx=new FileSystemXmlApplicationContext("src/com/nt/cfgs/applicationContect.xml");
+		Object obj=ctx.getBean("wmg");
+		
+		WishMessageGenerator generator=(WishMessageGenerator) obj;
+		String result= generator.generateWidhMessage("Sumant");
+		System.err.println(result);
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.nt.comps;
+
+public class FirstFlight implements Courier {
+
+	public FirstFlight() {
+		System.out.println("BlueDart::0-param constructor");
+	}
+	@Override
+	public String deliver(int oid) {
+		System.out.println("BlueDart.deliver()");
+		return oid+"  order id order products are given for delivery to BlueDart Courier Service";
+	}
+
+}

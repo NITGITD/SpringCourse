@@ -1,0 +1,17 @@
+package com.nt.test;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.nt.beans.SeasonFinder;
+
+
+public class AutowiringTest {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("com/nt/cfgs/applicationContect.xml");
+		SeasonFinder finder = /* (SeasonFinder) */ ctx.getBean("sf",SeasonFinder.class);
+		String result = finder.findSeason("Vibha");
+		System.out.println(result);
+	}
+
+}

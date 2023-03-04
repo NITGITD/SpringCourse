@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.nt.comps.WishMessageGenerator"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.FileSystemXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.nt.beans.WishMessageGenerator"/>
+    <fullyQualifiedTypeName name="com.nt.beans.SeasonFinder"/>
+    <fullyQualifiedTypeName name="com.nt.comps.Employee"/>
+    <fullyQualifiedTypeName name="com.nt.comps.Customer"/>
+    <fullyQualifiedTypeName name="com.nt.comps.Person"/>
+    <fullyQualifiedTypeName name="com.nt.factory.PersonFactory"/>
+    <fullyQualifiedTypeName name="com.nt.comps.Courier"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.nt.comps.BlueDart"/>
+    <fullyQualifiedTypeName name="com.nt.comps.FirstFlight"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="com.nt.comps.Flipkart"/>
+    <fullyQualifiedTypeName name="com.nt.factory.FlipkartFactory"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="com.nt.beans.Flipkart"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.nt.beans.PersonInfo"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ScannedGenericBeanDefinition"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+</qualifiedTypeNameHistroy>

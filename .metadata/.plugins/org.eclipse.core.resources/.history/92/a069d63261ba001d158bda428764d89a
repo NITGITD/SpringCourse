@@ -1,0 +1,17 @@
+package com.nt.beans;
+
+import java.time.LocalDateTime;
+import java.util.Calendar;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("sf")
+public class SeasonFinder {
+
+	@Autowired
+	private Calendar cal;
+
+	
+
+}

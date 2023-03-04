@@ -1,0 +1,11 @@
+package com.nt.comps;
+
+public class Customer implements Person {
+
+	@Override
+	public void doTask() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

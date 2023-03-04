@@ -1,0 +1,12 @@
+package com.nt.comps;
+
+public final class Flipkart {
+
+	private Courier courier;
+	
+	public Flipkart() {
+		System.out.println("Flipkart::0-param constructor");
+	}
+	
+	
+}

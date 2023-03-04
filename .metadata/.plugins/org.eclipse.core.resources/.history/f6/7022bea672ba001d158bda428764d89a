@@ -1,0 +1,20 @@
+package com.nt.factory;
+
+import com.nt.comps.Employee;
+import com.nt.comps.Person;
+import com.nt.comps.Student;
+
+public class PersonFactory {
+
+	public static Person getPerson(String type) {
+		Person per=null;
+		if(type.equalsIgnoreCase("stud"))
+			per=new Student();
+		elseif(type.equalsIgnoreCase("emp"))
+			per=new Employee();
+		if(type.equalsIgnoreCase("stud"))
+			per=new Student();
+		if(type.equalsIgnoreCase("stud"))
+			per=new Student();
+	}
+}

@@ -1,0 +1,23 @@
+package com.nt.factory;
+
+import com.nt.comps.BlueDart;
+import com.nt.comps.Courier;
+import com.nt.comps.DHL;
+import com.nt.comps.FirstFlight;
+import com.nt.comps.Flipkart;
+
+public class FlipkartFactory {
+
+	public static Flipkart getInstance(String courierType) {
+		Courier courier=null;
+		
+		if(courierType.equalsIgnoreCase("dhl"))
+			courier=new DHL();
+		else if(courierType.equalsIgnoreCase("bDart"))
+			courier=new BlueDart();
+		else if(courierType.equalsIgnoreCase("firstFlight"))
+			courier=new FirstFlight();
+		if(courierType.equalsIgnoreCase("dhl"))
+			courier=new DHL();
+	}
+}
